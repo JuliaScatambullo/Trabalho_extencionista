@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.3.3-dist/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/1 Lp letras fase2.css">
+    <link rel="stylesheet" href="css/0- geralzao.css">
+    <script defer src="javascript/1 LP letras fase 2.js"></script>
+</head>
+<body>
+    <div class="container" style="text-align: center;">
+        
+       
+        <!-titulo ->  
+        <P>FASE 2</P>
+
+        <p>ESCOLHA UMA LETRA PARA COMPLETAR A PALAVRA</p>
+        <a href="1 LP letras fase 3.html"> <button id="proceed" style="display: none;">PRÓXIMA FASE -></button> </a>
+            
+        <p id="textinho"></p>
+       <p>  </p>
+        <div class="row">
+            <!- letras ->
+            <div class="col-sm">
+               <p> <button style="background-color: rgb(0, 73, 230);" id="u" onclick="pega_id(this.id)">U</button> </p>
+               <p> <button style="background-color: rgb(255, 239, 21);" id="a" onclick="pega_id(this.id)">A</button> </p>
+            </div>
+
+            <!- imagem ->
+            <div class="col-sm">
+              <img src="imagem/bananapng.avif">  
+            </div>
+
+            <!- letras ->
+            <div class="col-sm">
+                <p> <button style="background-color: rgb(245, 97, 196);" id="e" onclick="pega_id(this.id)">E</button> </p>
+                <p> <button style="background-color: rgb(110, 108, 110);" id="i" onclick="pega_id(this.id)">I</button> </p>
+            </div>
+
+        </div>
+
+        <!-palavra a ser completada ->
+        <p> <button >B</button> 
+            
+            <button>A</button> 
+            
+            <button>N</button> 
+
+            <button>A</button> 
+            
+            <button>N</button> 
+            
+            <button id="faltando">_</button> 
+</p>
+           
+
+    </div>
+</body>
+</html>
